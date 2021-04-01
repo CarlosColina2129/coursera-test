@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  margin: 30px auto 30px auto;
+   
+}
+
+
+#m1{
+  background-color: #D59898;
+}
+
+#m2{
+  background-color: #C14543;
+}
+
+#m3{
+  background-color: #E5D198;
+}
+
+.BOX{
+  background-color: #999999;
+  border: 1px solid black;
+  
+}
+
+.subT{
+  font-size: 20px;
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.txt {
+  margin: 10px;
+}
+
+ /* Web */
+@media (min-width: 992px) {
+ 
+  .BOX {    
+    width: 30%;
+    height: 40%;
+}
+
+#m1 {
+    position: relative;
+    left: 76.5%;
+}
+
+#m2 {
+    position: relative;
+    left: 76.5%;
+}
+
+#m3 {
+    position: relative;
+    left: 76.5%;
+}
+
+#B1 {
+    position: absolute; 
+    left: 2%;
+}
+
+#B2{
+    position: absolute; 
+    left: 34.5%;
+}
+
+#B3{
+    position: absolute;  
+    left: 67%;
+}
+}
+
+/* Tableta */
+
+
+@media (min-width:768px) and (max-width: 991px) {
+  .BOX {    
+    width: 45%;
+    height: 35%;
+}
+
+#m1 {
+    position: relative;
+    left: 76.5%;
+}
+
+#m2 {
+    position: relative;
+    left: 77%;
+}
+
+#m3 {
+    position: relative;
+    left: 78.3%;
+    
+}
+
+#B1 {
+    position: absolute; 
+    left: 5%;
+    margin-left: 0;
+}
+
+#B2{
+    position: absolute; 
+    left: 50%;
+    margin-left: 15px;
+ }
+
+#B3{
+    position: absolute; 
+    left: 5%;
+    top: 60%;
+    width: 92%;
+    margin-left: 0;
+    
+}
+}
+ /* Móvil */
+@media (max-width: 767px) {  
+
+  .BOX {    
+    width: 45%;
+    height: 35%;
+    margin-bottom: 15px;
+}
+
+#m1 {
+    position: relative;
+    left: 77%;
+}
+
+#m2 {
+    position: relative;
+    left: 77%;
+}
+
+#m3 {
+    position: relative;
+    left: 77%;
+}
+
+#B1 {
+    position: absolute; 
+    left: 5%;
+    width: 92%;
+}
+
+#B2{
+    position: absolute;
+    top: 60.5%; 
+    left: 5%;
+    width: 92%;
+ }
+
+#B3{
+    position: absolute; 
+    left: 5%;
+    top: 100%;
+    width: 92%;
+}
+
+}
