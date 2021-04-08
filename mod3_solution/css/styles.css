@@ -1,0 +1,78 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #D3413F;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /*  FOOD, LLC */
+  font-family: 'Lora', serif;
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+}
+
+div > h1{
+font-size: 50px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+#fondo{
+  background-color: gray;
+  padding: 10px;
+}
+
+h4{ 
+text-align: center;
+font-weight: bold;
+}
+
+
+
+
+/*celulares*/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+a{
+  text-align: center;
+}
+
+}
+/*otros*/
+@media (min-width: 768px)  {
+.cnav{
+    color: black;
+    font-size: 0px;
+}
+a{
+  cursor:default;
+}
+
+
+}
